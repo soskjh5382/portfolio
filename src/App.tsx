@@ -22,6 +22,14 @@ const MONO = "'JetBrains Mono', ui-monospace, monospace";
 const WORK = [
     {
         no: "01",
+        title: "한국도로공사 기술심사시스템 고도화",
+        period: "2025.07 – 2026.04",
+        summary: "입찰 기술평가 전 과정을 관리하는 공공 평가 시스템의 고도화",
+        body: "eGovFrame 기반 시스템에서 수행계획 수립·평가조서 확인·평가위원 구성으로 이어지는 다단계 평가 프로세스를 개발했다. 하드코딩된 분류값을 공통코드 기반 동적 렌더링으로 전환하고, 평가방 입장·모의평가 등 평가위원 화면 로직과 신규 퍼블리싱 마크업을 적용했다. 매퍼·서비스·컨트롤러 전반을 수정하고 배포·운영 대응까지 담당했다.",
+        stack: ["Java", "eGovFrame", "JSP", "PostgreSQL"],
+    },
+    {
+        no: "02",
         title: "LGU+ 사내 회의통화시스템",
         period: "2024.08 – 2024.11",
         summary: "실시간 회의 개설·자동 전화 연결을 지원하는 사내 통합 시스템",
@@ -29,7 +37,7 @@ const WORK = [
         stack: ["Java", "WebSquare", "MariaDB", "jQuery"],
     },
     {
-        no: "02",
+        no: "03",
         title: "KT알파 기프티쇼 커머스",
         period: "2023.04 – 2024.08",
         summary: "모바일 상품권을 발송·구매·교환하는 B2C 통합 커머스 플랫폼",
@@ -37,7 +45,7 @@ const WORK = [
         stack: ["Java", "Spring", "MSSQL", "JSP"],
     },
     {
-        no: "03",
+        no: "04",
         title: "OCR 기반 건강검진 시스템",
         period: "2021.07 – 2021.12",
         summary: "검진 서식을 촬영해 OCR로 자동 추출하는 마이데이터 헬스케어 플랫폼",
@@ -45,7 +53,7 @@ const WORK = [
         stack: ["Java", "PostgreSQL", "CLOVA OCR", "SVN"],
     },
     {
-        no: "04",
+        no: "05",
         title: "주문관리 재가급여 서비스",
         period: "2020.10 – 2021.02",
         summary: "고령화 사회를 위한 방문복지 통합 관리 플랫폼",
@@ -53,7 +61,7 @@ const WORK = [
         stack: ["Java", "Spring", "MySQL", "JQGrid"],
     },
     {
-        no: "05",
+        no: "06",
         title: "프로젝트 관리 · 다수 서비스",
         period: "상시",
         summary: "출입관리·앱 영상 렌더링·아기침대 모니터링 등 다양한 프로젝트 총괄",
@@ -90,6 +98,15 @@ const SIDE = [
         stack: ["GitHub Actions", "평가셋", "TypeScript"],
         demo: "",
         repo: "https://github.com/soskjh5382/pr-review-test",
+    },
+    {
+        no: "04",
+        title: "코드베이스 분석 에이전트",
+        summary: "프로젝트 파일을 직접 읽어 답하는 AI 에이전트",
+        body: "질문을 던지면 에이전트가 스스로 필요한 파일을 찾고, 읽고, 검색해 종합해 답한다. 도구 호출·멀티스텝 추론·대화 맥락 유지를 구현했고, 설정값 하나로 Gemini·Claude·OpenAI를 전환한다. 답을 지어내지 않고 실제 코드를 확인한 뒤 대답한다.",
+        stack: ["에이전트", "FastAPI", "React"],
+        demo: "https://code-agent-frontend.onrender.com",
+        repo: "https://github.com/soskjh5382/code-agent",
     },
 ];
 
