@@ -108,6 +108,15 @@ const SIDE = [
         demo: "https://code-agent-frontend.onrender.com",
         repo: "https://github.com/soskjh5382/code-agent",
     },
+    {
+        no: "05",
+        title: "코드 구조 분석 MCP 서버",
+        summary: "코드를 문법 구조로 분석해 Claude Code에 연동한 MCP 서버",
+        body: "함수 호출 관계와 변경 영향 범위를 분석하는 도구를 MCP 서버로 만들어 Claude Code에 연동했다. grep이 글자만 찾는 한계를 tree-sitter 기반 구문 분석으로 넘어, '이 함수를 누가 호출하는지'와 '이걸 고치면 어디가 깨지는지'를 정확히 추적한다. 기준 폴더 밖 접근을 차단하는 안전장치를 넣고, 환경변수로 분석 대상을 지정하게 해 다른 프로젝트도 분석할 수 있다.",
+        stack: ["MCP", "tree-sitter", "Python"],
+        demo: "",
+        repo: "https://github.com/soskjh5382/code-structure-mcp",
+    },
 ];
 
 // ── 기술 스택 ──
